@@ -1,7 +1,7 @@
 {
   "name": "fcm-web",
-  "version": "0.1.1",
-  "description": "Browser-side Firebase Cloud Messaging helpers with an AI-friendly scaffolding CLI.",
+  "version": "0.1.2",
+  "description": "Browser-side Firebase Cloud Messaging helpers with a scaffolding CLI.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/demoon84/fcm-web.git"

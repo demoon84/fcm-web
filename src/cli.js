@@ -383,13 +383,13 @@ Usage:
   fcm-web detect [options]
   fcm-web [options]
 
-AI shortcuts:
-  --ai                             Enables machine-friendly JSON output and defaults --install to true
+Additional options:
   --config-json <json>             Pass Firebase config directly as JSON
   --config-env <name>              Read Firebase config JSON from an environment variable
   --vapid-key-env <name>           Read VAPID key from an environment variable
   --dry-run                        Show what would change without writing files
   --result-file <path>             Write JSON result metadata to a file
+  --ai                             Enable --json and default --install to true
 
 Init options:
   --config <path>                 Firebase web config JSON file
@@ -414,9 +414,9 @@ Init options:
   --json                          Print machine-readable JSON output
   -h, --help                      Show this help
 
-AI env defaults:
-  ${DEFAULT_AI_CONFIG_ENV}         Firebase config JSON string for --ai mode
-  ${DEFAULT_AI_VAPID_ENV}           Public VAPID key for --ai mode
+Environment variable defaults:
+  ${DEFAULT_AI_CONFIG_ENV}         Default Firebase config JSON string
+  ${DEFAULT_AI_VAPID_ENV}           Default public VAPID key
 `);
 }
 
