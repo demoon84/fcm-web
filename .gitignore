@@ -1,0 +1,8 @@
+node_modules
+coverage
+tmp
+.DS_Store
+.fcm-web
+findings.md
+progress.md
+task_plan.md
